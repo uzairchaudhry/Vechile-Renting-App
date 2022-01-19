@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mclec11.mc_vehicle_renting">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.OrdersData"
+            android:label="OrdersData" >
+        </activity>
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.CustomerData"
+            android:label="CustomerData" >
+        </activity>
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.Lastpage"
+            android:label="Last" >
+        </activity>
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.Amount"
+            android:label="Amount" >
+        </activity>
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.Admin"
+            android:label="Admin" >
+        </activity>
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.Mainpage"
+            android:label="Main Page" >
+        </activity>
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.Menuscreen"
+            android:label="Menuscreen" >
+        </activity>
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.Orderscreen"
+            android:label="Orderscreen" >
+        </activity>
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.Orderlist"
+            android:label="Orderlist" >
+        </activity>
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.Register"
+            android:label="Register" >
+        </activity>
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.Login"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="com.mclec11.mc_vehicle_renting.Frontend"
+            android:label="VEHCILE RENTING" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
